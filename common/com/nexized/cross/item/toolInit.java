@@ -45,6 +45,19 @@ public class toolInit {
 	public static Item swordSteel;
 	public static Item swordTin;
 	
+	//Define Food
+	public static Item Corn;
+	public static Item Tomato;
+	public static Item Strawberry;
+	public static Item Blueberry;
+	public static Item GreenTomato;
+	public static Item Orange;
+	public static Item Lettuce;
+	public static Item Eggplant;
+	public static Item Scrambled Eggs;
+
+	
+	
 	public static void doWork(confEntity idm, confLocalisation local) {
 		// @Add Tools
 		addTools(idm);
@@ -90,6 +103,16 @@ public class toolInit {
 		swordSilver = new toolSword(idm.swordSilverID, crossMaterials.materialSilver).setUnlocalizedName("swordSilver");
 		swordSteel = new toolSword(idm.swordSteelID, crossMaterials.materialSteel).setUnlocalizedName("swordSteel");
 		swordTin = new toolSword(idm.swordTinID, crossMaterials.materialTin).setUnlocalizedName("swordTin");
+		
+		// @Add Foods
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 	public static void setHarvestLevel() {
